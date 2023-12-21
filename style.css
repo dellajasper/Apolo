@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #161815;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: purple;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-txt {
+    width: 100%;
+}
+
+.header-txt h1 {
+    font-size: 90px;
+    line-height: 80px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 50px;
+}
+
+.header-txt p {
+    font-size: 25px;
+    color: #C4C4C4;
+    margin-bottom: 35px;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 15px;
+}
+
+.btn-1,
+.btn-3 {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: mediumvioletred;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 25px;
+}
+
+.btn-1:hover,
+.btn-3:hover {
+    background-color: mediumvioletred;
+}
+
+.header-img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.artist-content {
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist-content h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 85px;
+    line-height: 95px;
+    color: black;
+    margin-bottom: 15px;
+    text-align: center;
+    text-align: justify;
+}
+
+.artist-content p {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 35px;
+    border-left: 1px solid black;
+    padding-left: 15px;
+    text-align: center;
+    text-align: justify;
+}
+
+.header-txt h1 {
+    font-size: 90px;
+    line-height: 80px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 30px;
+}
+
+.header-img {
+    margin-top: 30px;
+}
+
+.tours {
+    padding: 150px 0;
+    text-align: center;
+}
+
+
+.tours-content {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 70px;
+
+    flex: 1;
+
+}
+
+.tour h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 150px;
+    line-height: 100px;
+    color: black;
+    margin-bottom: 15px;
+    justify-self: unset;
+}
+
+
+
+.tour p {
+    font-size: 35px;
+    color: black;
+    margin-bottom: 60px;
+    justify-self: unset;
+
+}
+
+
+
+.tour-1{
+
+    background: linear-gradient(
+
+        rgba(0, 0, 0, 0.2),
+
+        rgba(0, 0, 0, 0.2)
+
+    ),
+
+    url(t1.jpg);
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 350px;
+
+    width: 250px;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.tour-2 {
+
+    background: linear-gradient(
+
+        rgba(0, 0, 0, 0.2),
+
+        rgba(0, 0, 0, 0.2)
+
+    ),
+
+    url(t2.jpg);
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 350px;
+
+    width: 250px;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.tour-3 {
+
+    background: linear-gradient(
+
+        rgba(0, 0, 0, 0.2),
+
+        rgba(0, 0, 0, 0.2)
+
+    ),
+
+    url(t3.jpg);
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 350px;
+
+    width: 250px;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+.tour-4 {
+
+    background: linear-gradient(
+
+        rgba(0, 0, 0, 0.2),
+
+        rgba(0, 0, 0, 0.2)
+
+    ),
+
+    url(t4.jpg);
+
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 350px;
+
+    width: 250px;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.video {
+    padding: 150px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bg2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video {
+    padding: 150px 0;
+    text-align: center;
+}
+
+.video h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 150px;
+    line-height: 100px;
+    color: white;
+    margin-bottom: 15px;
+    justify-self: unset;
+}
+
+.video p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 60px;
+    justify-self: unset;
+}
+
+
+.video-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.video-1,
+.video-2,
+ .video-3{
+    width: 100%;
+}
+
+.v1,
+.v2,
+.v3 {
+    width: 300px;
+    margin-right: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 991px) 
+{
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu.navbar {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        background-color: #161815;
+    }
+
+    .menu .navbar ul li {
+        width: 100px;
+    }
+
+    #menu:checked .navbar {
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .header-content {
+        flex-direction: column;
+        padding: 100px 30px 30px 30px;
+    }
+
+    .header-txt h1 {
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .header-txt {
+        margin-bottom: 15px;
+    }
+
+    .btn-2 {
+        margin: 20px;
+    }
+
+    .header-img {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .header-Ing a {
+        margin: 30px;
+    }
+
+    .tours {
+        padding: 3px;
+    }
+
+    .tour-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .video {
+        padding: 30px;
+    }
+
+    .video-content {
+        flex-direction: column;
+    }
+
+    .video-1 {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .video-2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .v1,
+    .v2,
+    .v3{
+        width: 350px;
+        margin: 0 0 50px 0;
+    }
+
+   
+}
